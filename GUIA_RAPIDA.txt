@@ -1,0 +1,40 @@
+# Guía Rápida
+
+## ✅ Archivos del Proyecto
+
+### Esenciales:
+- `shearsort.cpp` / `shearsort.exe` - Ordenamiento paralelo
+- `binarysearch.cpp` / `binarysearch.exe` - Búsqueda paralela
+- `informe.tex` - Informe completo en LaTeX
+- `README.md` - Documentación
+
+### Scripts:
+- `compile.sh` / `compile.ps1` - Compilar código
+- `run_tests.sh` / `run_tests.ps1` - Ejecutar pruebas
+
+## 🚀 Uso Rápido
+
+### Ejecutar programas:
+```bash
+./shearsort.exe       # Ejecutar Shearsort
+./binarysearch.exe    # Ejecutar Binary Search
+```
+
+### Compilar (si necesario):
+```bash
+bash compile.sh       # Linux
+.\compile.ps1         # Windows
+```
+
+### Generar informe PDF:
+```bash
+pdflatex informe.tex  # Dos veces
+```
+O usar [Overleaf](https://www.overleaf.com) (más fácil)
+
+## 📊 Resultados Clave
+
+- **Shearsort**: Speedup 1.77x con 4 hilos (128×128)
+- **P-BSA**: Speedup < 1.0 (overhead domina)
+
+Ver `README.md` para detalles completos.
